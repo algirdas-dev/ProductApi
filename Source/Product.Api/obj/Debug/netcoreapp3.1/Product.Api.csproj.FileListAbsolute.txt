@@ -140,3 +140,5 @@ C:\repo\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\staticwebassets\Pr
 C:\repo\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\Product.Api.dll
 C:\repo\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\Product.Api.pdb
 C:\repo\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\Product.Api.genruntimeconfig.cache
+C:\repo\ProductApi\Source\Product.Api\bin\Debug\netcoreapp3.1\Product.Helpers.dll
+C:\repo\ProductApi\Source\Product.Api\bin\Debug\netcoreapp3.1\Product.Helpers.pdb

@@ -1416,7 +1416,8 @@
       "Product.DB/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
-          "Microsoft.Extensions.Hosting.Abstractions": "5.0.0"
+          "Microsoft.Extensions.Hosting.Abstractions": "5.0.0",
+          "Product.Helpers": "1.0.0"
         },
         "runtime": {
           "Product.DB.dll": {}
@@ -1431,6 +1432,14 @@
         },
         "compile": {
           "Product.Domain.dll": {}
+        }
+      },
+      "Product.Helpers/1.0.0": {
+        "runtime": {
+          "Product.Helpers.dll": {}
+        },
+        "compile": {
+          "Product.Helpers.dll": {}
         }
       },
       "Product.Infrastructure/1.0.0": {
@@ -3749,6 +3758,11 @@
       "sha512": ""
     },
     "Product.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Product.Helpers/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

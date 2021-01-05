@@ -22,3 +22,6 @@ C:\repo\ProductApi\Source\Product.DB\obj\Debug\netcoreapp3.1\Product.DB.csproj.C
 C:\repo\ProductApi\Source\Product.DB\obj\Debug\netcoreapp3.1\Product.DB.dll
 C:\repo\ProductApi\Source\Product.DB\obj\Debug\netcoreapp3.1\Product.DB.pdb
 C:\repo\ProductApi\Source\Product.DB\obj\Debug\netcoreapp3.1\Product.DB.genruntimeconfig.cache
+C:\repo\ProductApi\Source\Product.DB\bin\Debug\netcoreapp3.1\Product.Helpers.dll
+C:\repo\ProductApi\Source\Product.DB\bin\Debug\netcoreapp3.1\Product.Helpers.pdb
+C:\repo\ProductApi\Source\Product.DB\obj\Debug\netcoreapp3.1\Product.DB.csproj.CopyComplete

@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Product.DB;
+using Product.Helpers.Connections;
+using Product.Helpers.Generators;
 
 namespace Product.Api
 {
@@ -25,7 +27,12 @@ namespace Product.Api
             services.AddDbContext<ProductContext>(opts =>
                 opts.UseSqlServer(Configuration.GetConnectionString("sqlConnection")));
 
-            //services.AddScoped<>
+            services.AddTransient<IDatabaseConnectionFactory>(e =>
+            {
+                return new SqlConnectionFactory(Configuration.GetConnectionString("sqlConnection"));
+            });
+
+            services.AddScoped<CodeGeneratorHelper>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
