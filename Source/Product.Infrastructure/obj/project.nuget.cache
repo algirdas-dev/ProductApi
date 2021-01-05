@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mghAFzQB8Zut4uZKNXkuQ0bdOxYthHPqINiyHa4Yz542CwTf1f8mvyV4Zv8d6IsvFUPkneoBXZr+/aipchUgFw==",
+  "dgSpecHash": "X9tVVUG8NmId39I8hrPHnp9uQzwUCU0cK0cGKEwzlD9IRi+VJIQsNEZSrP+MbTp4oZUIK0/VHdYgBsNJ77uspw==",
   "success": true,
-  "projectFilePath": "C:\\repo\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj",
+  "projectFilePath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\askalskis\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
-    "C:\\Users\\askalskis\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    "C:\\Users\\algir\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\algir\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

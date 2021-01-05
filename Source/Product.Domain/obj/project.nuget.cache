@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p5GdrOIt8AhhdtOyq7mHY9TcmElbfDuSB2miKaiwAJ+RfEcMufxieZmmrzMGCGgQgbaby3s0oKc9yh9GyX29qg==",
+  "dgSpecHash": "GKg1gk3KsZyLra1NpjkK2x+KRLa9Im8hplYunbqG+OUTSP2fQ+A7dA0WPedze3H8KHpxMfZgJtelgahYFbke7Q==",
   "success": true,
-  "projectFilePath": "C:\\repo\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
+  "projectFilePath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

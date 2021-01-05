@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.DB", "Product.DB\Pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Tests", "Product.Tests\Product.Tests.csproj", "{D99D4482-5027-4E36-9719-B5E7CA523DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Helpers", "Product.Helpers\Product.Helpers.csproj", "{E060E7F9-56C4-4C92-BAA6-67B3DD71E8E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Helpers", "Product.Helpers\Product.Helpers.csproj", "{E060E7F9-56C4-4C92-BAA6-67B3DD71E8E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

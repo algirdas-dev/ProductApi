@@ -16,3 +16,12 @@ C:\repo\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.
 C:\repo\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csproj.CoreCompileInputs.cache
 C:\repo\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.dll
 C:\repo\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.pdb
+C:\Repo\ProductApi\ProductApi\Source\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.deps.json
+C:\Repo\ProductApi\ProductApi\Source\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.dll
+C:\Repo\ProductApi\ProductApi\Source\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.pdb
+C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csprojAssemblyReference.cache
+C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfoInputs.cache
+C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfo.cs
+C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csproj.CoreCompileInputs.cache
+C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.dll
+C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.pdb

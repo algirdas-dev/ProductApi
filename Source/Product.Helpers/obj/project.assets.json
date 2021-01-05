@@ -454,19 +454,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\askalskis\\.nuget\\packages\\": {}
+    "C:\\Users\\algir\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repo\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
+      "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
       "projectName": "Product.Helpers",
-      "projectPath": "C:\\repo\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
-      "packagesPath": "C:\\Users\\askalskis\\.nuget\\packages\\",
-      "outputPath": "C:\\repo\\ProductApi\\Source\\Product.Helpers\\obj\\",
+      "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
+      "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
+      "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\askalskis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -510,7 +510,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015135\\RuntimeIdentifierGraph.json"
       }
     }
   }
