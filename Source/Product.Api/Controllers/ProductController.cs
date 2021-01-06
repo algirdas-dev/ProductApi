@@ -3,7 +3,9 @@ using Microsoft.Extensions.Logging;
 using Product.Api.Models.Product;
 using Product.Domain.Dtos;
 using Product.Domain.IServices;
+using Swashbuckle.Swagger.Annotations;
 using System.Collections.Generic;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace Product.Api.Controllers
@@ -16,7 +18,13 @@ namespace Product.Api.Controllers
         {
         }
 
+
         [HttpGet]
+        [SwaggerOperation("GetProductList")]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
+
         public async Task<IActionResult> Single([FromQuery]SingleRequest req)
         {
             Logger.LogInformation($"Get product with filter: name={req?.Name}, bestRatingProduct={req?.BestRatingProduct}, worstRatingProduct={req?.WorstRatingProduct}");
@@ -36,6 +44,10 @@ namespace Product.Api.Controllers
         }
 
         [HttpGet("GetComments")]
+        [SwaggerOperation("GetProductCommentList")]
+        [ProducesResponseType(typeof(GetCommentResponse),(int)HttpStatusCode.OK )]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
         public async Task<IActionResult> GetComments([FromQuery]GetCommentsRequest req)
         {
             Logger.LogInformation($"Get product comments with filter: ProductCode={req?.ProductCode}");
@@ -48,10 +60,13 @@ namespace Product.Api.Controllers
             var comments = await Service.GetComments(productId).ConfigureAwait(false);
 
             var result = new GetCommentResponse();
-            if (comments != null) {
+            if (comments != null)
+            {
                 result.Comments = new List<GetCommentResponse.Comment>();
-                foreach (var comment in comments) {
-                    result.Comments.Add(new GetCommentResponse.Comment {
+                foreach (var comment in comments)
+                {
+                    result.Comments.Add(new GetCommentResponse.Comment
+                    {
                         PosterName = comment.PosterName,
                         ProductName = comment.ProductName,
                         Rating = comment.Rating,
@@ -65,6 +80,10 @@ namespace Product.Api.Controllers
         }
 
         [HttpPost("SaveComment")]
+        [SwaggerOperation("SaveProductCommentList")]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
         public async Task<IActionResult> SaveComment([FromBody]SaveCommentRequest req)
         {
             Logger.LogInformation($"Get product comments with filter: ProductCode={req?.ProductCode}");
@@ -74,7 +93,8 @@ namespace Product.Api.Controllers
             if (!productId.HasValue)
                 return NotFound($"ProductCode={req?.ProductCode}");
 
-            var comment = new CommentDto { 
+            var comment = new CommentDto
+            {
                 Description = req.Description,
                 PosterName = req.PosterName,
                 ProductId = productId.Value,

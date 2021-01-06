@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Product.Api.Controllers
 {
+    
     public abstract class BaseController<T> : ControllerBase
     {
         protected readonly ILogger<ProductController> Logger;
@@ -12,6 +13,7 @@ namespace Product.Api.Controllers
             Service = service;
         }
 
+        [ApiExplorerSettings(IgnoreApi = true)]
         public NotFoundResult NotFound(string logMessage)
         {
             Logger.LogWarning($"Not Found: {logMessage}");
