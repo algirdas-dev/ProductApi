@@ -4,14 +4,92 @@
     "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj": {
+    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj",
-        "projectName": "Product.Infrastructure",
-        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj",
+        "projectName": "Product.DB",
+        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj",
         "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\obj\\",
+        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
+                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015135\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
+        "projectName": "Product.Domain",
+        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
+        "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,10 +115,150 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015135\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
+        "projectName": "Product.Helpers",
+        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
+        "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Experimental.System.Messaging": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015135\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj",
+        "projectName": "Product.Infrastructure",
+        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj": {
+                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj"
+              },
+              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
+              },
+              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
+                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Dapper": {
               "target": "Package",
               "version": "[2.0.78, )"
+            },
+            "Experimental.System.Messaging": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

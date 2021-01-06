@@ -51,11 +51,37 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Karambolo.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0-preview1-19509-03, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [
@@ -232,7 +258,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -244,6 +274,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Experimental.System.Messaging": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.2, )"
@@ -290,7 +324,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj": {
+                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj"
+              },
+              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
+              },
+              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
+                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -305,6 +349,18 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.78, )"
+            },
+            "Experimental.System.Messaging": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

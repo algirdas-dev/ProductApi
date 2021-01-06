@@ -16,4 +16,8 @@
     <ProjectReference Include="..\Product.Helpers\Product.Helpers.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Helpers\Converters\" />
+  </ItemGroup>
+
 </Project>

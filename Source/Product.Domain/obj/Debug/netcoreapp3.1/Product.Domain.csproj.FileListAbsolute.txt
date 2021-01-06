@@ -22,6 +22,5 @@ C:\Repo\ProductApi\ProductApi\Source\Product.Domain\bin\Debug\netcoreapp3.1\Prod
 C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csprojAssemblyReference.cache
 C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfoInputs.cache
 C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfo.cs
-C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csproj.CoreCompileInputs.cache
 C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.dll
 C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.pdb

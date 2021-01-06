@@ -39,3 +39,5 @@ C:\Repo\ProductApi\ProductApi\Source\Product.DB\obj\Debug\netcoreapp3.1\Product.
 C:\Repo\ProductApi\ProductApi\Source\Product.DB\obj\Debug\netcoreapp3.1\Product.DB.dll
 C:\Repo\ProductApi\ProductApi\Source\Product.DB\obj\Debug\netcoreapp3.1\Product.DB.pdb
 C:\Repo\ProductApi\ProductApi\Source\Product.DB\obj\Debug\netcoreapp3.1\Product.DB.genruntimeconfig.cache
+C:\Repo\ProductApi\ProductApi\Source\Product.DB\bin\Debug\netcoreapp3.1\Product.Domain.dll
+C:\Repo\ProductApi\ProductApi\Source\Product.DB\bin\Debug\netcoreapp3.1\Product.Domain.pdb

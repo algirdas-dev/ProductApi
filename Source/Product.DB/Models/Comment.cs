@@ -11,6 +11,8 @@ namespace Product.DB.Models
         public string PosterName { get; set; }
         public string Description { get; set; }
         public byte? Rating { get; set; }
+        public bool IsDeleted { get; set; }
+        public bool IsEnabled { get; set; }
 
         public Product Product { get; set; }
     }

@@ -20,6 +20,6 @@ namespace Product.DB
         }
 
         public DbSet<Models.Product> Products { get; set; }
-        public DbSet<Comment> Posts { get; set; }
+        public DbSet<Comment> Comments { get; set; }
     }
 }

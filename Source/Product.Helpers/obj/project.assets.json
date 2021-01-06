@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Experimental.System.Messaging/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Experimental.System.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Experimental.System.Messaging.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -130,10 +139,34 @@
             "rid": "win"
           }
         }
+      },
+      "Product.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Product.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product.Domain.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Experimental.System.Messaging/1.1.0": {
+      "sha512": "vub7Mtt2WFdFKTZKECVuZx6feP5kUpS9EfVy+Yu4GDfdlMwivRdX4TbdkDYS2lKqCjqzUbnxTbJei1IOqC+CnA==",
+      "type": "package",
+      "path": "experimental.system.messaging/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "experimental.system.messaging.1.1.0.nupkg.sha512",
+        "experimental.system.messaging.nuspec",
+        "lib/netstandard2.0/Experimental.System.Messaging.dll",
+        "lib/netstandard2.0/Experimental.System.Messaging.xml"
+      ]
+    },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "type": "package",
@@ -446,10 +479,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Product.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Product.Domain/Product.Domain.csproj",
+      "msbuildProject": "../Product.Domain/Product.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Experimental.System.Messaging >= 1.1.0",
+      "Product.Domain >= 1.0.0",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -478,7 +518,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+              "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -490,6 +534,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Experimental.System.Messaging": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.2, )"

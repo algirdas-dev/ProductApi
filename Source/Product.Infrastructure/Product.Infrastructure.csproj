@@ -1,17 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
+    <Compile Remove="Helpers\**" />
+    <EmbeddedResource Remove="Helpers\**" />
+    <None Remove="Helpers\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="Experimental.System.Messaging" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="5.0.0" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Product.DB\Product.DB.csproj" />
+    <ProjectReference Include="..\Product.Domain\Product.Domain.csproj" />
+    <ProjectReference Include="..\Product.Helpers\Product.Helpers.csproj" />
   </ItemGroup>
 
 </Project>
