@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
+      "projectUniqueName": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
       "projectName": "Product.Domain",
-      "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
+      "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
       "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
-      "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\obj\\",
+      "outputPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",

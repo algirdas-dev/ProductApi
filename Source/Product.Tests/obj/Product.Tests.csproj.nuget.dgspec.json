@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Tests\\Product.Tests.csproj": {}
+    "C:\\Repo\\Central\\ProductApi\\Source\\Product.Tests\\Product.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+    "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
+        "projectUniqueName": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
         "projectName": "Product.Domain",
-        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
+        "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
         "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\obj\\",
+        "outputPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
+    "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
+        "projectUniqueName": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
         "projectName": "Product.Helpers",
-        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
+        "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
         "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\obj\\",
+        "outputPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
               }
             }
           }
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Tests\\Product.Tests.csproj": {
+    "C:\\Repo\\Central\\ProductApi\\Source\\Product.Tests\\Product.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Tests\\Product.Tests.csproj",
+        "projectUniqueName": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Tests\\Product.Tests.csproj",
         "projectName": "Product.Tests",
-        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Tests\\Product.Tests.csproj",
+        "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Tests\\Product.Tests.csproj",
         "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Tests\\obj\\",
+        "outputPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,8 +145,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
               }
             }
           }

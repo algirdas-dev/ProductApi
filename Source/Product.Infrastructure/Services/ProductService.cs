@@ -21,14 +21,19 @@ namespace Product.Infrastructure.Services
         }
 
         public async Task<ProductDto> Single(string name, bool? bestRatingProduct, bool? worstRatingProduct) {
-            var products = await _cache.List().ConfigureAwait(false);
+            var products = (await _cache.List().ConfigureAwait(false));
 
             if (!string.IsNullOrWhiteSpace(name)) 
                 return products.FirstOrDefault(p => p.Name.ToLower() == name.ToLower());
-            else if (bestRatingProduct.HasValue && bestRatingProduct.Value)
-                return products.OrderBy(async p => (await _cache.Comments(p.ProductId))?.Average(c=>c.Rating)).FirstOrDefault(p => p.Name.ToLower() == name.ToLower());
+
+            products.ForEach(async p=> {
+                p.Rate = (await _cache.Comments(p.ProductId)).Average(c => c.Rating);
+            });
+
+            if (bestRatingProduct.HasValue && bestRatingProduct.Value)
+                return products.OrderByDescending( p => p.Rate).FirstOrDefault();
             else if (worstRatingProduct.HasValue && worstRatingProduct.Value)
-                return products.OrderByDescending(async p => (await _cache.Comments(p.ProductId))?.Average(c => c.Rating)).FirstOrDefault(p => p.Name.ToLower() == name.ToLower());
+                return products.OrderBy(p => p.Rate).FirstOrDefault();
 
 
             return null;

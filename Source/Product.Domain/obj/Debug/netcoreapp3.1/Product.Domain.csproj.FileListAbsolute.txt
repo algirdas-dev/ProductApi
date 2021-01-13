@@ -24,3 +24,11 @@ C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Prod
 C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfo.cs
 C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.dll
 C:\Repo\ProductApi\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.pdb
+C:\Repo\Central\ProductApi\Source\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.deps.json
+C:\Repo\Central\ProductApi\Source\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.dll
+C:\Repo\Central\ProductApi\Source\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.pdb
+C:\Repo\Central\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csprojAssemblyReference.cache
+C:\Repo\Central\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfoInputs.cache
+C:\Repo\Central\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfo.cs
+C:\Repo\Central\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.dll
+C:\Repo\Central\ProductApi\Source\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.pdb

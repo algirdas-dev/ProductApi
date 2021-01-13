@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Api\\Product.Api.csproj": {}
+    "C:\\Repo\\Central\\ProductApi\\Source\\Product.Api\\Product.Api.csproj": {}
   },
   "projects": {
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Api\\Product.Api.csproj": {
+    "C:\\Repo\\Central\\ProductApi\\Source\\Product.Api\\Product.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Api\\Product.Api.csproj",
+        "projectUniqueName": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Api\\Product.Api.csproj",
         "projectName": "Product.Api",
-        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Api\\Product.Api.csproj",
+        "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Api\\Product.Api.csproj",
         "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Api\\obj\\",
+        "outputPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,17 +27,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.DB\\Product.DB.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.DB\\Product.DB.csproj"
               },
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
               },
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
               },
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj"
               }
             }
           }
@@ -118,14 +118,14 @@
         }
       }
     },
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj": {
+    "C:\\Repo\\Central\\ProductApi\\Source\\Product.DB\\Product.DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj",
+        "projectUniqueName": "C:\\Repo\\Central\\ProductApi\\Source\\Product.DB\\Product.DB.csproj",
         "projectName": "Product.DB",
-        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj",
+        "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.DB\\Product.DB.csproj",
         "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\obj\\",
+        "outputPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.DB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,8 +141,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
               }
             }
           }
@@ -196,14 +196,14 @@
         }
       }
     },
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+    "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
+        "projectUniqueName": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
         "projectName": "Product.Domain",
-        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
+        "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj",
         "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\obj\\",
+        "outputPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -248,14 +248,14 @@
         }
       }
     },
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
+    "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
+        "projectUniqueName": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
         "projectName": "Product.Helpers",
-        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
+        "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj",
         "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\obj\\",
+        "outputPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -271,8 +271,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
               }
             }
           }
@@ -314,14 +314,14 @@
         }
       }
     },
-    "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj": {
+    "C:\\Repo\\Central\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj",
         "projectName": "Product.Infrastructure",
-        "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj",
+        "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Infrastructure\\Product.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\algir\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Infrastructure\\obj\\",
+        "outputPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\algir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -337,14 +337,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.DB\\Product.DB.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.DB\\Product.DB.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.DB\\Product.DB.csproj"
               },
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Domain\\Product.Domain.csproj"
               },
-              "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
-                "projectPath": "C:\\Repo\\ProductApi\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
+              "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj": {
+                "projectPath": "C:\\Repo\\Central\\ProductApi\\Source\\Product.Helpers\\Product.Helpers.csproj"
               }
             }
           }
