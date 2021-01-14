@@ -472,8 +472,6 @@ C:\Repo\Central\ProductApi\Source\Product.Api\bin\Debug\netcoreapp3.1\Product.In
 C:\Repo\Central\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\Product.Api.csprojAssemblyReference.cache
 C:\Repo\Central\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\Product.Api.AssemblyInfoInputs.cache
 C:\Repo\Central\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\Product.Api.AssemblyInfo.cs
-C:\Repo\Central\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\Product.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Repo\Central\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\Product.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Repo\Central\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\Product.Api.RazorTargetAssemblyInfo.cache
 C:\Repo\Central\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\Product.Api.csproj.CopyComplete
 C:\Repo\Central\ProductApi\Source\Product.Api\obj\Debug\netcoreapp3.1\staticwebassets\Product.Api.StaticWebAssets.Manifest.cache
