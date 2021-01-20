@@ -43,8 +43,6 @@ namespace Product.Infrastructure.CachedData
                 return result;
             });
 
-            var test = productsComments.TryGetValue(programId, out var values2) ? values2 : null;
-
             return productsComments.TryGetValue(programId, out var values) ? values : null;
 
         }
