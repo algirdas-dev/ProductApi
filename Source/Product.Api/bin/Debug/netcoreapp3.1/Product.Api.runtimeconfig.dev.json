@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\algir\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\algir\\.nuget\\packages"
-    ]
-  }
-}
